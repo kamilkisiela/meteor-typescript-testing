@@ -1,0 +1,11 @@
+{
+  "name": "meteor-js-tests",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --driver-package practicalmeteor:mocha"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0"
+  }
+}
